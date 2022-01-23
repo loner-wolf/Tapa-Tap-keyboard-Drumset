@@ -105,15 +105,15 @@ function onClickFunct(Button, Music) {
   Music.play();
 
   Button.style.border = "5px dashed blue";
-  Button.style.width = "80px";
-  Button.style.height = "80px";
-  Button.style.fontSize = "45px";
+  Button.style.width = Button.style.width.substring(0,2)+'px';
+  Button.style.height = Button.style.height.substring(0, 2) + "px";
+  Button.style.fontSize = Button.style.fontSize.substring(0, 2) + "px";
 }
 function ofClickFunction(Button) {
   Button.style.border = "3px dashed red";
-  Button.style.width = "75px";
-  Button.style.height = "75px";
-  Button.style.fontSize = "40px";
+  Button.style.width = Button.style.width.substring(0, 2) - "px";
+  Button.style.height = Button.style.height.substring(0, 2) - "px";
+  Button.style.fontSize = Button.style.fontSize.substring(0, 2) - "px";
 }
 
 // Qbutton.accessKey="W";
