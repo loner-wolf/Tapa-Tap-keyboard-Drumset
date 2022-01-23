@@ -148,3 +148,32 @@ body {
     animation: none;
   }
 }
+
+@media (max-width: 500px){
+    #div h1{
+        font-size: 40px;
+    }
+    #div2{
+        margin: 5% auto;
+    background-color: rgba(255, 255, 255, 0.034);
+    border-radius: 5px;
+    box-shadow: 100%;
+    box-sizing: content-box;
+    padding: 5px;
+    text-align: center;
+    width: 85%;
+    height: 85%;
+    }
+    .keyBTN{
+    width: 55px;
+    height: 55px;
+    border-radius: 10%;
+    border: 2px dashed rgb(250, 0, 0);
+    color: rgb(255, 255, 255);
+    margin:0px;
+    background-color: rgba(252, 164, 0, 0);
+    font-family: Creepster, cursive;    
+    font-size: 30px;
+    margin: 6px;
+    text-align: center;
+}
