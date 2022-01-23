@@ -1,8 +1,7 @@
 # Tapa-Tap-keyboard-Drumset
 
-wave Hi, I’m @Aryan
-eyes I’m interested in Competitive Programming and Web Development
-seedling I’m currently learning Frontend Web-Development
-revolving_hearts 
+ Hi, I’m @Aryan
+ I’m interested in Competitive Programming and Web Development
+ I’m currently learning Frontend Web-Development
 
 THIS IS A MINI PROJECT BASED ON JAVASCRIPT AND CSS.
